@@ -21,7 +21,6 @@ def generate_and_save_passwords(num_passwords=100000, length=14, include_special
         for _ in range(num_passwords):
             password = generate_password(length, include_special, include_uppercase, include_numbers)
             file.write(password + '\n')
-
-# Example: Generate 50 passwords and store them in "passwords.txt"
+            
 generate_and_save_passwords(num_passwords=100000, length=16, include_special=True, include_uppercase=True, include_numbers=True, filename="passwords.txt")
 print("Passwords generated and saved to 'passwords.txt'")
