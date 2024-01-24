@@ -1,0 +1,1 @@
+This is a simple password generator that quickly generates 100,000 passwords instantly. The List of passwords are saved to a text file named "password.txt", and 100,000 might be a lot, but you can change the code to any number you please. The passwords are all 14 digit, Upper case and lower case letter, symbols, and numbers. 
